@@ -2,32 +2,32 @@ body {
     background-color: #f4f6f9;
 }
 
-h1, h2 {
-    color: #2c3e50;
+.title {
     text-align: center;
-}
-
-.section-box {
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin-bottom: 30px;
-}
-
-.result-box {
-    background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 22px;
+    font-size: 40px;
     font-weight: bold;
     color: #2c3e50;
 }
 
-button {
-    background-color: #2e86de !important;
-    color: white !important;
-    font-size: 18px !important;
-    border-radius: 8px !important;
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-bottom: 30px;
 }
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.result {
+    font-size: 26px;
+    font-weight: bold;
+    color: #27ae60;
+    text-align: center;
+}
+
