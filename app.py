@@ -20,7 +20,7 @@ load_css("style.css")
 # ---------------- LOAD DATA ----------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'C:\Users\ADMIN\Downloads\23rd- Poly\23rd- Poly\1.POLYNOMIAL REGRESSION\emp_sal.csv')   # keep CSV in same folder
+    df = pd.read_csv('emp_sal.csv')   # keep CSV in same folder
     x = df.iloc[:, 1:2].values
     y = df.iloc[:, 2].values
     return x, y
@@ -105,3 +105,4 @@ st.markdown(
     "<hr><center>Built with ❤️ using Streamlit & Machine Learning</center>",
     unsafe_allow_html=True
 )
+
