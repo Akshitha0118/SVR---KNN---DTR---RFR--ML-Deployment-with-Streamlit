@@ -10,8 +10,7 @@ The goal is to understand how different regressors behave on the same dataset an
 
 ---
 
-## 🚀 Models Implemented
-
+## 🚀 Models Implemented 
 - 📈 Support Vector Regression (Polynomial Kernel)
 - 📍 K-Nearest Neighbors Regression
 - 🌳 Decision Tree Regression
